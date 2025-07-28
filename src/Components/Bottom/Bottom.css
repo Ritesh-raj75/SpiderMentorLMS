@@ -1,0 +1,171 @@
+.bottomBox {
+  background-color: rgb(28, 29, 31);
+  padding: 2% 4%;
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
+
+.white {
+  color: white;
+}
+
+.purple {
+  color: rgb(206, 192, 252);
+}
+
+.purple:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Btop {
+  height: 100px;
+}
+
+.Tleft {
+  width: 100%;
+  height: 80px;
+}
+
+.Tleft > h2 {
+  font-size: 145%;
+  text-align: left;
+}
+
+.Tright {
+  margin: 1% 0 0 0%;
+  width: 80%;
+}
+
+.Tright > img {
+  padding: 0 2% 0 0;
+}
+
+.Mleft {
+  width: 80%;
+  text-align: left;
+}
+
+.Mleft > ul {
+  margin-top: 3%;
+  margin-left: -9%;
+  padding: 0 10%;
+}
+
+.Mleft > ul > li {
+  list-style: none;
+  margin-top: 3%;
+}
+
+.Mleft > ul > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Mright {
+  border: 1.5px solid rgb(255, 255, 255);
+  width: 150px;
+  margin: 1.5% 0 0 15%;
+  height: 40px;
+}
+
+.Mright:hover {
+  cursor: pointer;
+  background-color: rgb(94, 94, 94);
+}
+
+.Glogo {
+  width: 25px;
+  margin: 30% 55%;
+  border-radius: 50%;
+}
+
+.Eng {
+  margin: 15% 0 0 35%;
+}
+
+.Eleft {
+  width: 95%;
+}
+
+.Eleft > img {
+  width: 8%;
+  margin: 2% 0 0 -93%;
+}
+
+.Eleft > img:hover {
+  cursor: pointer;
+}
+
+.Eright > p {
+  font-size: 80%;
+  width: 180%;
+  margin-left: -50%;
+}
+
+.hoverUnderline {
+  text-decoration: underline;
+}
+
+.hr {
+  background-color: rgb(94, 90, 90);
+  width: 110%;
+  margin-left: -4.5%;
+  height: 0.1px;
+}
+
+/* ✅ Newsletter Section Fix */
+.newsletter-section {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-section input[type="email"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  font-size: 14px;
+}
+
+.newsletter-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.newsletter-section button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* ✅ Responsive Newsletter Stack */
+@media (max-width: 768px) {
+  .newsletter-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter-section input[type="email"] {
+    width: 90%;
+  }
+
+  .newsletter-section button {
+    width: 90%;
+  }
+}

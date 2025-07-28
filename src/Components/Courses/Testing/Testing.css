@@ -1,0 +1,53 @@
+/* SoftwareTestingPromo.css */
+
+/* Make list items clean and aligned */
+ul.list-unstyled li {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Adjust hero content overlay padding for better readability */
+.container.bg-dark.bg-opacity-50 {
+  max-width: 700px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .container.bg-dark.bg-opacity-50 h1 {
+    font-size: 1.75rem;
+  }
+
+  .container.bg-dark.bg-opacity-50 p.lead {
+    font-size: 1rem;
+  }
+
+  ul.list-unstyled li {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* Add hover effect on enroll button */
+.btn-warning:hover {
+  background-color: #f1c40f;
+  color: #000;
+}
+
+/* Tool images */
+img.img-fluid {
+  max-height: 80px;
+  object-fit: contain;
+}
+img {
+  transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}

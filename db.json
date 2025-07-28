@@ -1,0 +1,18 @@
+{
+  "posts": [],
+  "comments": [],
+  "users": [
+    {
+      "id": "6e72",
+      "name": "Nikhil",
+      "email": "kp@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "2b2e",
+      "name": "kp",
+      "email": "sp@gmail.com",
+      "password": "12345"
+    }
+  ]
+}
